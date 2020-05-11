@@ -1,0 +1,40 @@
+
+body{
+    background-image: url("https://i.pinimg.com/736x/53/d7/9c/53d79cd0dd32afed64aad5fb74c504b5.jpg");
+    background-size: 100vw 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.menu {
+    background-color: rgb(95, 21, 102);
+    color: white;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+}
